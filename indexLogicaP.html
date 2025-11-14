@@ -78,56 +78,64 @@
     </div>
   </div>
 
-  <div class="secaoCalculadoras">
-    <p class="tituloPrincipal">Códigos de calculadoras com o uso de JavaScript:</p><br>
-    <div class="calculos">
-      <p class="titulo1">Ordenando 10 números aleatórios de 1 a 20:</p><br>
-      <button onclick="ordenarNum()">Calcular</button>
-      <div id="res1" class="result"></div><br>
-
-      <div class="calculos">
-        <p class="titulo1">Ordenando 10 números aleatórios de 1 a 20(Utilizando Bubble Sort):</p><br>
-        <button onclick="ordenarNumBs()">Calcular</button>
-        <div id="res2" class="result"></div><br>
-
-        <div class="calculos">
-          <p class="titulo1">Somando 10 números aleatórios de 1 a 220 em um array.</p><br>
-          <button onclick="somaArr()">Calcular</button>
-          <div id="res3" class="result"></div><br>
-
-        <div class="calculos">
-          <p class="titulo1">Gerando uma matriz 3 x 3 de números aleatórios de 1 a 20:</p><br>
-          <button onclick="gerarMat()">Calcular</button>
-          <div id="res4" class="result"></div><br>
-
-        <div class="calculos">
-          <p class="titulo1">Programa para calcular o IMC de uma pessoa:</p><br>
-          <label>Digite sua altura (m):</label><br>
-          <input type= "text" id="altura" placeholder="Digite"><br>
-          <label>Digite seu peso (Kg):</label><br>
-          <input type= "text" id="peso" placeholder="Digite"><br>
-          <button onclick="calcularIMC()">Calcular IMC</button>
-          <div id="res5" class="result"></div><br>
-
-        <div class="calculos">
-          <p class="titulo1">Programa para converter a temperatura em °F, °C.</p><br>
-          <label>Digite 'C' para converter de °F -> °C ou Digite 'F' para °C -> °F: </label><br>
-          <input type= "text" id="conversao" placeholder="Digite"><br>
-          <label>Digite o Valor númerico da temperatura:</label><br>
-          <input type= "text" id="temperatura" placeholder="Digite"><br>
-          <button onclick="converterTemperatura()">Converter</button>
-          <div id="res6" class="result"></div><br>
-
-        <div class="calculos">
-          <p class="titulo1">Apresente um script de busca linear</p><br>
-          <p class="Info6">Um script de busca linear é um algoritmo simples usado para encontrar um elemento específico dentro de uma lista ou vetor. Ele percorre cada item da lista, um por um, comparando o valor atual com o valor que se deseja encontrar. Se o elemento for encontrado, o algoritmo retorna sua posição; caso contrário, indica que o item não está presente. É um método direto, mas pode ser lento em listas muito grandes, pois no pior caso precisa verificar todos os elementos.</p><br>
-          <input type="text" id="buscaValor" placeholder="Digite:"><br>
-          <button onclick="buscaLinear()">Buscar</button>
-          <div id="res7" class="result"></div><br>
-
-        </div>
-      </div>
-    </div>
+  <div class="calculos1">
+    <p class="titulo1">Ordenando 10 números aleatórios de 1 a 20:</p><br>
+    <button onclick="ordenarNum()">Calcular</button>
+    <div id="res1" class="result"></div>
+  </div>
+  
+  <div class="calculos2">
+    <p class="titulo1">Ordenando 10 números aleatórios de 1 a 20 (Bubble Sort):</p><br>
+    <button onclick="ordenarNumBs()">Calcular</button>
+    <div id="res2" class="result"></div>
+  </div>
+  
+  <div class="calculos3">
+    <p class="titulo1">Somando 10 números aleatórios de 1 a 220 em um array.</p><br>
+    <button onclick="somaArr()">Calcular</button>
+    <div id="res3" class="result"></div>
+  </div>
+  
+  <div class="calculos4">
+    <p class="titulo1">Gerando uma matriz 3 x 3 de números aleatórios de 1 a 20:</p><br>
+    <button onclick="gerarMat()">Calcular</button>
+    <div id="res4" class="result"></div>
+  </div>
+  
+  <div class="calculos5">
+    <p class="titulo1">Programa para calcular o IMC de uma pessoa:</p><br>
+    
+    <label>Digite sua altura (m):</label><br>
+    <input type="text" id="altura" placeholder="Digite"><br>
+    
+    <label>Digite seu peso (Kg):</label><br>
+    <input type="text" id="peso" placeholder="Digite"><br>
+  
+    <button onclick="calcularIMC()">Calcular IMC</button>
+    <div id="res5" class="result"></div>
+  </div>
+  
+  <div class="calculos6">
+    <p class="titulo1">Converter temperatura °F / °C:</p><br>
+  
+    <label>Digite 'C' para °F→°C ou 'F' para °C→°F:</label><br>
+    <input type="text" id="conversao" placeholder="Digite"><br>
+  
+    <label>Digite o valor da temperatura:</label><br>
+    <input type="text" id="temperatura" placeholder="Digite"><br>
+  
+    <button onclick="converterTemperatura()">Converter</button>
+    <div id="res6" class="result"></div>
+  </div>
+  
+  <div class="calculos7">
+    <p class="titulo1">Busca Linear:</p><br>
+  
+    <p class="Info6">Um algoritmo simples que percorre item por item...</p>
+  
+    <input type="text" id="buscaValor" placeholder="Digite:"><br>
+    <button onclick="buscaLinear()">Buscar</button>
+    <div id="res7" class="result"></div>
   </div>
 
   <hr>

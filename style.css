@@ -1,239 +1,65 @@
-* { 
-  margin: 0;
-  padding: 0;
-}
-
-html, body {
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden;
-}
-
-body {
-  background: linear-gradient(-45deg, #ffffff, #9e9e9e, #535353, #000000);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-}
-
-@keyframes gradient {
-  0% {
-      background-position: 0% 50%;
+  * { 
+    margin: 0;
+    padding: 0;
   }
-  50% {
-      background-position: 100% 50%;
+
+  html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
   }
-  100% {
-      background-position: 0% 50%;
+
+  body {
+    background: linear-gradient(-45deg, #ffffff, #9e9e9e, #535353, #000000);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
   }
-}
 
-.divHeader {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  background-color: rgb(243, 243, 247);
-  width: 100%;
-  padding: 15px 0;
-}
-
-.imagemSesi {
-  width: 120px;
-  height: 110px;
-  margin-left: 300px;
-}
-
-.paragrafoTitulo {
-  margin-top: 50px;
-  text-align: center;
-  font-size: 40px;
-  text-decoration: underline;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;
-}
-
-.paragrafoPrincipal {
-  text-align: center;
-  font-size: 30px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;
-  max-width: 1000px;
-  margin-left: 400px;
-}
-
-
-.nav a,
-.nav1 a,
-.nav2 a,
-.nav3 a,
-.nav4 a,
-.nav5 a,
-.nav6 a,
-.nav7 a {
-  text-decoration: none;
-  color: #000000;   
-  font-weight: bold;
-  font-size: 16px;
-  font-family: 'Franklin Gothic Medium';
-}
-
-.tituloMapa {
-  margin-top: 10px;
-  text-align: center;
-  font-size: 40px;
-  text-decoration: underline;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;
-}
-
-.mapaSesi {
-  margin-left: 580px;
-  border-radius: 20px;
-}
-
-.navegacaoImg {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 30px; 
-  justify-items: center; 
-  align-items: center; 
-  margin: 20px;
-  margin-left: 300px;
-  max-width: 900px; 
-}
-
-.imgFooter img {
-  width: 400px;
-  height: auto;
-  transition: transform 0.5s ease;
-}
-
-.imgFooter img:hover {
-  transform: scale(1.10); 
-}
-
-footer {
-  margin-top: 20px;
-  background-color: rgb(58, 58, 58);
-}
-
-.IconeFooter {
-  margin-top: 10px;
-  width: 140px;
-  height: 110px;
-  border-radius: 10px;
-  margin-left: 150px;
-}
-
-footer .infoFooter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  width: 80%;
-  max-width: 1000px;
-  margin: 0 auto 10px auto;
-  color: white;
-}
-
-.footerBottom {
-  text-align: center;
-  font-size: 13px;
-  color: #ccc;
-  padding-top: 10px;
-  width: 100%;
-}
-
-hr {
-  margin-top: 10px;
-}
-
-@media screen and (max-width: 600px) {
+  @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+  }
 
   .divHeader {
-    flex-direction: column;
+    display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 20px;
+    background-color: rgb(243, 243, 247);
     width: 100%;
-    gap: 10px;
-    padding: 10px 0;
+    padding: 15px 0;
   }
 
   .imagemSesi {
-    width: 80px;
-    height: 70px;
-    margin-left: 0;
+    width: 120px;
+    height: 110px;
+    
   }
 
   .paragrafoTitulo {
-    font-size: 26px;
-    margin-top: 30px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
   }
 
   .paragrafoPrincipal {
-    font-size: 18px;
-    margin: 15px auto;
-    max-width: 90%;
     text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    max-width: 1000px;
+    margin-left: 400px;
   }
 
-  .tituloMapa {
-    font-size: 26px;
-  }
-
-  .mapaSesi {
-    margin: 0 auto;
-    width: 380px;
-    text-align: center;
-    border-radius: 20px;
-  }
-
-  .mapaSesi iframe,
-  .mapaSesi img {
-    width: 90%;
-    height: auto;
-  }
-
-  .navegacaoImg {
-    grid-template-columns: 1fr;
-    margin: 10px auto;
-    max-width: 90%;
-    gap: 20px;
-  }
-
-  .imgFooter img {
-    width: 100%;
-    height: auto;
-  }
-
-  footer .infoFooter {
-    flex-direction: column;
-    text-align: center;
-    gap: 15px;
-    width: 100%;
-  }
-
-  .IconeFooter {
-    margin: 0 auto;
-    width: 100px;
-    height: 80px;
-  }
-
-  .footerBottom {
-    font-size: 12px;
-    padding-top: 5px;
-  }
-
-  hr {
-    margin: 10px auto;
-    width: 100%;
-  }
-
-  .nav, .nav1, .nav2, .nav3, .nav4, .nav5, .nav6, .nav7 {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 5px;
-  }
 
   .nav a,
   .nav1 a,
@@ -243,9 +69,215 @@ hr {
   .nav5 a,
   .nav6 a,
   .nav7 a {
-    font-size: 13px;
+    text-decoration: none;
+    color: #000000;   
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium';
   }
-}
+
+  .tituloMapa {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+  }
+
+  .mapaSesi {
+    margin-left: 580px;
+    border-radius: 20px;
+  }
+
+  .navegacaoImg {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px; 
+    justify-items: center; 
+    align-items: center; 
+    margin: 20px;
+    margin-left: 300px;
+    max-width: 900px; 
+  }
+
+  .imgFooter img {
+    width: 400px;
+    height: auto;
+    transition: transform 0.5s ease;
+  }
+
+  .imgFooter img:hover {
+    transform: scale(1.10); 
+  }
+
+  footer {
+    margin-top: 20px;
+    background-color: rgb(58, 58, 58);
+  }
+
+  .IconeFooter {
+    margin-top: 10px;
+    width: 140px;
+    height: 110px;
+    border-radius: 10px;
+    margin-left: 150px;
+  }
+
+  footer .infoFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto 10px auto;
+    color: white;
+  }
+
+  .footerBottom {
+    text-align: center;
+    font-size: 13px;
+    color: #ccc;
+    padding-top: 10px;
+    width: 100%;
+  }
+
+  hr {
+    margin-top: 10px;
+  }
+
+  @media screen and (max-width: 600px) {
+
+    .divHeader {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      gap: 10px;
+      padding: 10px 0;
+    }
+
+    .imagemSesi {
+      width: 80px;
+      height: 70px;
+      margin-left: 0;
+    }
+
+    .paragrafoTitulo {
+      font-size: 26px;
+      margin-top: 30px;
+    }
+
+    .paragrafoPrincipal {
+      font-size: 18px;
+      margin: 15px auto;
+      max-width: 90%;
+      text-align: center;
+    }
+
+    .tituloMapa {
+      font-size: 26px;
+    }
+
+    .mapaSesi {
+      margin: 0 auto;
+      width: 380px;
+      text-align: center;
+      border-radius: 20px;
+    }
+
+    .mapaSesi iframe,
+    .mapaSesi img {
+      width: 90%;
+      height: auto;
+    }
+
+    .navegacaoImg {
+      grid-template-columns: 1fr;
+      margin: 10px auto;
+      max-width: 90%;
+      gap: 20px;
+    }
+
+    .imgFooter img {
+      width: 100%;
+      height: auto;
+    }
+
+    footer .infoFooter {
+      flex-direction: column;
+      text-align: center;
+      gap: 15px;
+      width: 100%;
+    }
+
+    .IconeFooter {
+      margin: 0 auto;
+      width: 100px;
+      height: 80px;
+    }
+
+    .footerBottom {
+      font-size: 12px;
+      padding-top: 5px;
+    }
+
+    hr {
+      margin: 10px auto;
+      width: 100%;
+    }
+
+    .nav, .nav1, .nav2, .nav3, .nav4, .nav5, .nav6, .nav7 {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+
+    .nav a,
+    .nav1 a,
+    .nav2 a,
+    .nav3 a,
+    .nav4 a,
+    .nav5 a,
+    .nav6 a,
+    .nav7 a {
+      font-size: 13px;
+    }
+  }
+
+  @media screen and (max-width: 1400px) and (min-width: 601px) {
+
+    .imagemSesi {
+      width: 100px;
+    }
+  
+    .paragrafoPrincipal {
+      max-width: 800px;
+      margin: 20px auto;
+      font-size: 24px;
+    }
+  
+    .navegacaoImg {
+      grid-template-columns: repeat(2, 1fr);
+      max-width: 700px;
+      gap: 25px;
+    }
+  
+    .mapaSesi {
+      max-width: 500px;
+    }
+  
+    footer .infoFooter {
+      gap: 25px;
+    }
+  
+    .imgFooter img {
+      max-width: 320px;
+    }
+  }
+  
 
 
 

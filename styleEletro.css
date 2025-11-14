@@ -142,3 +142,33 @@ body {
         background-position: 0% 50%;
     }
 }
+@media screen and (max-width: 1400px) and (min-width: 601px) {
+
+  .imagemSesi {
+    width: 100px;
+  }
+
+  .paragrafoPrincipal {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 24px;
+  }
+
+  .navegacaoImg {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 700px;
+    gap: 25px;
+  }
+
+  .mapaSesi {
+    max-width: 500px;
+  }
+
+  footer .infoFooter {
+    gap: 25px;
+  }
+
+  .imgFooter img {
+    max-width: 320px;
+  }
+}

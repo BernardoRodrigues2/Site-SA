@@ -327,15 +327,179 @@ body {
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+.calculos1, 
+.calculos2, 
+.calculos3, 
+.calculos4, 
+.calculos5, 
+.calculos6, 
+.calculos7 {
+    background-color: white;
+    width: 900px;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform .3s ease;
 }
+
+.calculos1:hover,
+.calculos2:hover,
+.calculos3:hover,
+.calculos4:hover,
+.calculos5:hover,
+.calculos6:hover,
+.calculos7:hover {
+    transform: scale(1.02);
+}
+
+.titulo1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.result {
+    font-size: 20px;
+    color: black;
+    font-family: Arial;
+    margin-top: 10px;
+}
+
+   @media (max-width: 1000px) {
+
+    html, body {
+      overflow-x: hidden;
+    }
+  
+    .divHeader {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .imagemSesi {
+      width: 70px;
+      height: auto;
+      margin: 0;
+    }
+  
+    .nav, .nav1, .nav2, .nav3, .nav4, .nav5, .nav6, .nav7 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 6px;
+      margin-top: 5px;
+    }
+  
+    .nav a,
+    .nav1 a,
+    .nav2 a,
+    .nav3 a,
+    .nav4 a,
+    .nav5 a,
+    .nav6 a,
+    .nav7 a {
+      font-size: 12px;
+    }
+    .tituloPrincipal {
+      font-size: 26px;
+      margin-top: 20px;
+    }
+  
+    .infoP {
+      font-size: 18px;
+      margin: 10px auto;
+      max-width: 90%;
+      text-align: justify;
+    }
+  
+    .secaoLinguagens,
+    .secaoInt,
+    .secaoHtml,
+    .secaoIDE,
+    .calculos1,
+    .calculos2,
+    .calculos3,
+    .calculos4,
+    .calculos5,
+    .calculos6,
+    .calculos7 {
+      width: 90%;
+      margin: 15px auto;
+      height: auto;
+      padding: 15px;
+    }
+  
+    .textoLinguagens,
+    .textoInt,
+    .textoHtml,
+    .textoIDE {
+      margin: 5px;
+    }
+  
+    .pTitulo1,
+    .pTitulo2,
+    .pTitulo3,
+    .pTitulo4,
+    .titulo1 {
+      font-size: 22px;
+    }
+  
+    .info1,
+    .info2,
+    .info3,
+    .info4,
+    .info5,
+    .result {
+      font-size: 16px;
+      text-align: justify;
+    }
+  
+    .tituloMapa {
+      font-size: 26px;
+    }
+  
+    .navegacaoImg {
+      grid-template-columns: 1fr;
+      max-width: 90%;
+      margin: 10px auto;
+      gap: 20px;
+    }
+  
+    .imgFooter img {
+      width: 100%;
+      height: auto;
+    }
+
+    footer {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+  
+    .IconeFooter {
+      width: 90px;
+      margin: 10px auto;
+      height: auto;
+    }
+  
+    footer .infoFooter {
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+    }
+  
+    .footerBottom {
+      font-size: 12px;
+    }
+  }
+
+  
+
+
+
+
