@@ -39,6 +39,7 @@
   .imagemSesi {
     width: 120px;
     height: 110px;
+    margin-left: 150px;
     
   }
 
@@ -56,6 +57,7 @@
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
+    text-align: justify;
     max-width: 1000px;
     margin-left: 400px;
   }
@@ -147,7 +149,7 @@
     margin-top: 10px;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
 
     .divHeader {
       flex-direction: column;
@@ -161,7 +163,7 @@
     .imagemSesi {
       width: 80px;
       height: 70px;
-      margin-left: 0;
+      margin-left: 100px;
     }
 
     .paragrafoTitulo {
@@ -247,7 +249,7 @@
     }
   }
 
-  @media screen and (max-width: 1400px) and (min-width: 601px) {
+  @media screen and (max-width: 1600px) and (min-width: 801px) {
 
     .imagemSesi {
       width: 100px;
@@ -261,12 +263,13 @@
   
     .navegacaoImg {
       grid-template-columns: repeat(2, 1fr);
-      max-width: 700px;
+      max-width: 800px;
       gap: 25px;
     }
   
     .mapaSesi {
       max-width: 500px;
+      margin-left: 500px;
     }
   
     footer .infoFooter {

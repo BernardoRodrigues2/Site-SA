@@ -94,7 +94,7 @@ footer .infoFooter {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px; /* espaço entre logo e informações */
+  gap: 50px; 
   width: 80%;
   max-width: 1000px;
   margin-bottom: 10px;
