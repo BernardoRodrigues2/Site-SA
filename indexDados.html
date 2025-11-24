@@ -19,7 +19,109 @@
     </div>
 </header>
 <body>
+  <p class="tituloPrincipal">Introdução:</p><br>
+  <p class="infoP">Os bancos de dados são sistemas usados para organizar e armazenar informações de forma segura e rápida. Para isso, utilizamos os SGBDs, que permitem criar, acessar e gerenciar esses dados com eficiência. A modelagem e os diagramas, como DER e MER, ajudam a visualizar como as informações estão conectadas, facilitando o desenvolvimento de sistemas bem estruturados.</p><br>
 
+
+  <div class="secaoSGBD">
+    <div class="textoSGBD">
+      <p class="pTitulo1">O que é um SGBD? Tipos e aplicações: </p><br>
+      <p class="info1">Um SGBD (Sistema Gerenciador de Banco de Dados) é um software que controla, organiza e permite acessar um banco de dados. Ele que faz a “ponte” entre você e os dados. <br>
+     Tipos: <br>
+     Relacional -> usa tabelas, linhas e colunas (MySQL, SQL Server, PostgreSQL). <br>
+     Não relacional (NoSQL) -> usado para dados mais flexíveis, sem estrutura fixa (MongoDB, Redis, Cassandra). <br>
+     Hierárquico -> dados organizados como uma árvore. <br>
+     Orientado a objetos -> armazena objetos completos. <br>
+     Aplicações: <br>
+     Sites, apps, lojas virtuais, sistemas de empresas, cadastros, jogos online… <br>
+      </p>
+    </div>
+  </div> 
+
+  <div class="secaoBanco">
+    <div class="textoBanco">
+      <p class="pTitulo2">Quais os principais bancos de dados? </p><br>
+      <p class="info2">
+       Os mais conhecidos: <br>
+       *MySQL <br>
+       *PostgreSQL <br>
+       *Oracle <br>
+       *SQL Server <br>
+       *MongoDB <br>
+       *SQLite <br>
+       *Firebase <br>
+       *Cassandra <br>
+     </p>
+    </div>
+  </div>
+
+  <div class="secaoDicio">
+    <div class="textoDicio">
+      <p class="pTitulo3">O que é um dicionário de dados? </p><br>
+      <p class="info3">
+       É como um “manual” do banco de dados. Ele descreve tudo: nomes das tabelas, campos, tipos de dados, tamanhos e regras. <br>
+       *Tipos de dados mais comuns: <br>
+       *INT -> números inteiros <br>
+       *FLOAT/DOUBLE -> números decimais <br>
+       *VARCHAR -> textos curtos <br>
+       *TEXT -> textos grandes <br>
+       *DATE, TIME, DATETIME -> datas e horários <br>
+       *BOOLEAN -> verdadeiro/falso <br>
+       *BLOB -> arquivos binários (imagens, docs...) <br>
+     </p>
+    </div>
+  </div>
+
+  <div class="secaoModelagem">
+    <div class="textoModelagem">
+      <p class="pTitulo4">O que é uma modelagem de banco de dados? E o DER/MER? </p><br>
+      <p class="info4">
+       Modelagem é o planejamento de como os dados vão ser organizados antes de criar o banco. É tipo fazer a planta de uma casa antes de construir. <br>
+       *DER (Diagrama Entidade-Relacionamento): mostra as entidades (tabelas) e como elas se relacionam (1×1, 1×N, N×N). <br>
+       *MER (Modelo Entidade-Relacionamento): é a mesma ideia, só que normalmente representa o modelo lógico/conceitual com mais detalhes sobre atributos e relacionamentos. <br>
+     </p>
+    </div>
+  </div>
+  
+  <div class="secaoDER">
+    <div class="textoDER">
+      <p class="pTitulo5">Exemplo explicado de um diagrama DER:</p><br>
+      <p class="info5">
+      Imagina um sistema de escola: <br>
+      *Entidade Aluno <br>
+      *Entidade Turma <br>
+      Relacionamento: <br>
+      Um aluno pode estar em uma turma → 1:N (uma turma tem vários alunos). <br>
+      O DER mostraria: <br>
+      *Retângulo “Aluno” <br>
+      *Retângulo “Turma” <br>
+      *Entre eles, um losango “Está matriculado” <br>
+      *Cardinalidade: Turma (1) → Aluno (N) <br> 
+      </p>
+    </div>
+  </div>
+
+  <div class="secaoMER">
+    <div class="textoMER">
+      <p class="pTitulo6">Exemplo explicado de um diagrama MER:</p><br>
+      <p class="info6">
+        O MER é parecido, só que você inclui mais atributos dentro das entidades. <br>
+     Usando o mesmo exemplo: <br>
+     Entidade Aluno <br>
+     *id_aluno (PK) <br>
+     *nome <br>
+     *data_nascimento <br>
+     Entidade Turma  <br>
+     *id_turma (PK) <br>
+     *nome_turma <br>
+     *ano <br>
+     Relacionamento: “matriculado” <br>
+     No MER você veria as entidades com seus atributos dentro e o relacionamento conectando. <br>
+      </p>
+    </div>
+  </div>
+  
+<hr>
 <footer>
   <div class="infoFooter">
     <img class="IconeFooter" src="Imagens/IconFooter.png" alt="">
