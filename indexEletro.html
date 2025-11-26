@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styleEletro.css">
+    <script src="./eletro.js"defer></script>
     <link rel="shortcut icon" href="Imagens/SesiIcon.png" type="image/x-icon">
     <title>Site Situação de aprendizagem</title>
 </head>
@@ -150,6 +151,34 @@
       </p>
     </div>
    </div>
+
+   <div class="calculos1">
+    <p class="titulo1">Calculadora para calculo de lei de Ohm:</p><br>
+    <label for="resistencia">Digite o valor da Resistência (Ω):</label><br>
+    <input type="number" id="resistencia"><br>
+    <label>Digite o valor da Corrente (A):</label> <br> 
+    <input type="number" id="corrente"> <br> <br>
+    <button onclick="calculoOhm()">Calcular o valor da tensão (V)</button> <br>
+    <div id="resultado" class="result"></div>
+  </div>
+
+  <div class="calculos2">
+    <p class="titulo2">Calculadora para cálculo de Potência Elétrica:</p><br>
+    <label for="tensao">Digite o valor da Tensão (V):</label><br>
+    <input type="number" id="tensao"><br>
+    <label for="corrente">Digite o valor da Corrente (A):</label><br>
+    <input type="number" id="corrente"><br><br>
+    <button onclick="calculoPotencia()">Calcular o valor da Potência (W)</button><br>
+    <div id="resultadoPot" class="result"></div>
+</div>
+
+   <div class="calculos3">
+    <p class="titulo3">Simulação de leitura de sensor:</p><br>
+    <label for="valorSensor">Digite o valor do sensor de (0 a 1023):</label><br>
+    <input type="" id="valorSensor"><br>
+    <button onclick="lerSensor()">Clique para ler o Sensor</button> <br>
+    <div id="resultadoSensor" class="result"></div>
+  </div>
 
      <hr>
   <p class="tituloMapa">Navegação:</p>
