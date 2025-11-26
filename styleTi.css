@@ -82,6 +82,37 @@
   font-family: 'Franklin Gothic Medium';
 }
 
+
+
+.tituloMapa {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+.navegacaoImg {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 30px; 
+  justify-items: center; 
+  align-items: center; 
+  margin: 20px;
+  margin-left: 300px;
+  max-width: 900px; 
+}
+
+.imgFooter img {
+  width: 400px;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+
+.imgFooter img:hover {
+  transform: scale(1.10); 
+}
+
 .IconeFooter{
     margin-top: 10px;
     width: 140px;
