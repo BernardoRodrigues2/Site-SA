@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styleDados.css">
+    <script src="./dados.js" defer></script>
     <link rel="shortcut icon" href="Imagens/SesiIcon.png" type="image/x-icon">
     <title>Site Situação de aprendizagem</title>
 </head>
@@ -34,6 +35,7 @@
      Orientado a objetos -> armazena objetos completos. <br>
      Aplicações: <br>
      Sites, apps, lojas virtuais, sistemas de empresas, cadastros, jogos online… <br>
+     <img class="imagemSgbd" src="Imagens/sgbdFund.png" alt="">
       </p>
     </div>
   </div> 
@@ -51,13 +53,14 @@
        *SQLite <br>
        *Firebase <br>
        *Cassandra <br>
+       <img class="imagemB" src="Imagens/imagemBanco.jpg" alt="">
      </p>
     </div>
   </div>
 
   <div class="secaoDicio">
     <div class="textoDicio">
-      <p class="pTitulo3">O que é um dicionário de dados? </p><br>
+      <p class="pTitulo3">O que é um dicionário de dados? Quais os tipos de dados de um banco de dados? </p><br>
       <p class="info3">
        É como um “manual” do banco de dados. Ele descreve tudo: nomes das tabelas, campos, tipos de dados, tamanhos e regras. <br>
        *Tipos de dados mais comuns: <br>
@@ -67,7 +70,14 @@
        *TEXT -> textos grandes <br>
        *DATE, TIME, DATETIME -> datas e horários <br>
        *BOOLEAN -> verdadeiro/falso <br>
-       *BLOB -> arquivos binários (imagens, docs...) <br>
+       *BLOB -> arquivos binários (imagens, docs...) <br> <br>
+       Principais tipos de dados em um banco de dados: <br> 
+       *Numéricos: armazenam números inteiros ou decimais (INT, FLOAT, DECIMAL). <br>
+       *Texto: guardam caracteres e textos (CHAR, VARCHAR, TEXT). <br>
+       *Data e hora: registram datas, horários ou os dois (DATE, TIME, DATETIME).
+       *Lógicos: valores verdadeiro ou falso (BOOLEAN). <br>
+       *Binários: armazenam arquivos ou dados brutos (BLOB). <br>
+       *Especiais: usados para dados específicos, como JSON, XML, ENUM, UUID e informações geográficas. <br>
      </p>
     </div>
   </div>
@@ -79,6 +89,7 @@
        Modelagem é o planejamento de como os dados vão ser organizados antes de criar o banco. É tipo fazer a planta de uma casa antes de construir. <br>
        *DER (Diagrama Entidade-Relacionamento): mostra as entidades (tabelas) e como elas se relacionam (1×1, 1×N, N×N). <br>
        *MER (Modelo Entidade-Relacionamento): é a mesma ideia, só que normalmente representa o modelo lógico/conceitual com mais detalhes sobre atributos e relacionamentos. <br>
+       <img class="imagemModelagem" src="Imagens/modelagemBanco.png" alt="">
      </p>
     </div>
   </div>
@@ -97,6 +108,7 @@
       *Retângulo “Turma” <br>
       *Entre eles, um losango “Está matriculado” <br>
       *Cardinalidade: Turma (1) → Aluno (N) <br> 
+      <img class="imagemDer" src="Imagens/diagDer.png" alt="">
       </p>
     </div>
   </div>
@@ -117,7 +129,30 @@
      *ano <br>
      Relacionamento: “matriculado” <br>
      No MER você veria as entidades com seus atributos dentro e o relacionamento conectando. <br>
+     <img class="imagemMer" src="Imagens/imagemMer.png" alt="">
       </p>
+    </div>
+  </div>
+
+   <div class="secaoFormulario">
+    <div class="textoFormulario">
+      <p class="pTitulo7">Formulário para cadastro de dados (simulação):</p><br>
+      <p class="info7">
+        Preencha os campos abaixo e clique em "Salvar". O sistema irá apenas simular a gravação,
+        exibindo os dados na tela.
+      </p><br>
+      <form id="formCadastro" class="formulario">
+        <label>Nome:</label><br>
+        <input type="text" id="nome" required><br><br>
+        <label>Email:</label><br>
+        <input type="email" id="email" required><br><br>
+        <label>Idade:</label><br>
+        <input type="number" id="idade" required><br><br>
+        <label>Curso desejado:</label><br>
+        <input type="text" id="curso" required><br><br>
+        <button type="submit" class="botaoSalvar">Salvar</button>
+      </form>
+      <div id="resultado" class="resultadoSalvar"></div>
     </div>
   </div>
 
@@ -131,7 +166,6 @@
  <a class="imgFooter" href="./indexRede.html"><img src="Imagens/Img_Redes.png" alt=""></a>
  <a class="imgFooter" href="./indexTi.html"><img src="Imagens/Img_Ti.png" alt=""></a>
 </div>
-<hr> 
   
 <hr>
 <footer>

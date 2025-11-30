@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styleEletro.css">
-    <script src="./eletro.js"defer></script>
+    <script src="./eletro.js" defer></script>
     <link rel="shortcut icon" href="Imagens/SesiIcon.png" type="image/x-icon">
     <title>Site Situação de aprendizagem</title>
 </head>
@@ -39,6 +39,8 @@
        Circuito Integrado (CI):<br>
         -> Vários componentes dentro de um único chip.<br>
         -> Ex.: amplificadores operacionais, temporizadores (555), microcontroladores. <br>
+        <img class="imagemComp1" src="Imagens/resistorEletro.jfif" alt="">
+        <img class="imagemComp2" src="Imagens/diodoLedEletro.jfif" alt="">
        </p>
     </div>
   </div>
@@ -54,6 +56,7 @@
         -> Proximidade: ultrassônico HC-SR04, infravermelho.<br>
         -> Gás: MQ-2, MQ-7.<br>
         -> Movimento: sensor PIR. <br>
+        <img class="imagemSens" src="Imagens/sensoresEletro.webp" alt="">
       </p>
     </div>
    </div>
@@ -76,30 +79,32 @@
        -> Processamento limitado. <br>
        -> Não é ideal pra projetos muito complexos ou industriais. <br>
        -> Menos poderoso que Raspberry Pi, ESP32 etc. <br>
-
+       <img class="imagemArdui" src="Imagens/arduinoEletro.webp" alt="">
       </p>
     </div>
    </div>
 
    <div class="secaoArduino2">
     <div class="textoArduino2">
-      <p class="pTitulo4">Como o Arduíno funciona? O que é eletrônica embarcada?</p><br>
-      <p class="info4">
-      -> O Arduino recebe sinais de sensores (entradas), processa isso no microcontrolador e aciona atuadores (saídas).<br>
-      -> Ele funciona executando programas carregados pelo computador.<br>
-      Eletrônica embarcada:<br>
-      -> É quando sistemas eletrônicos + software estão “dentro” de dispositivos do dia a dia.<br>
-      -> Ex.: carros, micro-ondas, impressoras, drones.<br>
+       <p class="pTitulo4">Como o Arduíno funciona? O que é eletrônica embarcada?</p><br>
+       <p class="info4">
+       -> O Arduino recebe sinais de sensores (entradas), processa isso no microcontrolador e aciona atuadores (saídas).<br>
+       -> Ele funciona executando programas carregados pelo computador.<br>
+       Eletrônica embarcada:<br>
+       -> É quando sistemas eletrônicos + software estão “dentro” de dispositivos do dia a dia.<br>
+       -> Ex.: carros, micro-ondas, impressoras, drones.<br>
       </p>
     </div>
    </div>
 
    <div class="secaoArduino3">
-    <div class="textoArduino3">
-      <p class="pTitulo5">Arduíno: qual a linguagem de programação usada</p><br>
-      <p class="info5">
-      -> Principal: C/C++ (Arduino IDE). <br>
-      -> Também pode usar: Python (com MicroPython, dependendo da placa) e blocos (Scratch, Tinkercad), mas o padrão oficial É C/C++. <br>
+     <div class="textoArduino3">
+       <p class="pTitulo5">Arduíno: qual a linguagem de programação usada</p><br>
+       <p class="info5">
+       -> Principal: C/C++ (Arduino IDE). <br>
+       -> Também pode usar: Python (com MicroPython, dependendo da placa) e blocos (Scratch, Tinkercad), mas o padrão oficial É C/C++. <br>
+      <img class="imagemArd1" src="Imagens/ideArdui.png" alt="">
+      <img class="imagemArd2" src="Imagens/c++Arduin.jfif" alt="">
       </p>
     </div>
    </div>
@@ -148,37 +153,42 @@
      Display de 7 segmentos: <br>
      -> Conjunto de 7 LEDs formando números de 0 a 9. <br>
      -> Muito usado em relógios, cronômetros, painéis simples. <br>
+     <img class="imagemDio1" src="Imagens/diodoEletro.jfif" alt="">
+     <img class="imagemdio2" src="Imagens/diodoLedEletro.jfif" alt="">
+     <img class="imagemdio3" src="Imagens/displayDe7Seg.jpg" alt="">
       </p>
     </div>
    </div>
 
    <div class="calculos1">
-    <p class="titulo1">Calculadora para calculo de lei de Ohm:</p><br>
-    <label for="resistencia">Digite o valor da Resistência (Ω):</label><br>
-    <input type="number" id="resistencia"><br>
-    <label>Digite o valor da Corrente (A):</label> <br> 
-    <input type="number" id="corrente"> <br> <br>
-    <button onclick="calculoOhm()">Calcular o valor da tensão (V)</button> <br>
-    <div id="resultado" class="result"></div>
-  </div>
+     <p class="titulo1">Calculadora para calculo de lei de Ohm:</p><br>
+     <label for="resistencia">Digite o valor da Resistência (Ω):</label><br>
+     <input type="number" id="resistencia"><br>
+     <label for="corrente">Digite o valor da Corrente (A):</label> <br> 
+     <input type="number" id="corrente"> <br> <br>
+     <button onclick="calculoOhm()">Calcular o valor da tensão (V)</button> <br>
+     <div id="resultado" class="result"></div>
+    </div>
 
-  <div class="calculos2">
-    <p class="titulo2">Calculadora para cálculo de Potência Elétrica:</p><br>
-    <label for="tensao">Digite o valor da Tensão (V):</label><br>
-    <input type="number" id="tensao"><br>
-    <label for="corrente">Digite o valor da Corrente (A):</label><br>
-    <input type="number" id="corrente"><br><br>
-    <button onclick="calculoPotencia()">Calcular o valor da Potência (W)</button><br>
-    <div id="resultadoPot" class="result"></div>
-</div>
+   <div class="calculos2">
+     <p class="titulo2">Calculadora para cálculo de Potência Elétrica:</p><br>
+     <label for="tensao">Digite o valor da Tensão (V):</label><br>
+     <input type="number" id="tensao"><br>
+     <label for="correntePot">Digite o valor da Corrente (A):</label><br>
+     <input type="number" id="correntePot"><br>
+     <label for="resistenciaPot">Digite o valor da Resistência (Ω):</label><br>
+     <input type="number" id="resistenciaPot"><br><br>
+     <button onclick="calculoPotencia()">Calcular o valor da Potência (W)</button><br>
+     <div id="resultadoPot" class="result"></div>
+   </div>
 
    <div class="calculos3">
-    <p class="titulo3">Simulação de leitura de sensor:</p><br>
-    <label for="valorSensor">Digite o valor do sensor de (0 a 1023):</label><br>
-    <input type="" id="valorSensor"><br>
-    <button onclick="lerSensor()">Clique para ler o Sensor</button> <br>
-    <div id="resultadoSensor" class="result"></div>
-  </div>
+     <p class="titulo3">Simulação de leitura de sensor:</p><br>
+     <label for="valorSensor">Digite o valor do sensor de (0 a 1023):</label><br>
+     <input type="" id="valorSensor"><br><br>
+     <button onclick="lerSensor()">Clique para ler o Sensor</button> <br>
+     <div id="resultadoSensor" class="result"></div>
+   </div>
 
      <hr>
   <p class="tituloMapa">Navegação:</p>

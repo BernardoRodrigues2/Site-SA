@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+/* Background Animado */
 html, body {
   width: 100%;
   height: 100%;
@@ -29,6 +30,7 @@ body {
   width: 2000px;
 }
 
+/* Header e parte de navegação: */
 .nav a,
 .nav1 a,
 .nav2 a,
@@ -50,6 +52,7 @@ body {
   margin-left: 300px;
 }
 
+/* Conteúdos, Imagens, Pesquisas e Calculos */
 .paragrafoTitulo {
   margin-top: 50px;
   text-align: center;
@@ -204,17 +207,43 @@ body {
   text-align: center;
 }
 
-.img1, .img2, .img3, .img4, .img5, .img6 {
+.img1{
   width: 500px;
   border-radius: 8px;
-  height: auto;
+  height: 300px;
+}
+
+.img2{
+  width: 500px;
+  border-radius: 8px;
+  height: 300px;
 }
 
 .img3{
-  width: 350px;
-  height: auto;
+  width: 500px;
+  border-radius: 8px;
+  height: 300px;
 }
 
+.img4{
+  width: 500px;
+  border-radius: 8px;
+  height: 520px;
+}
+
+.img5{
+  width: 500px;
+  border-radius: 8px;
+  height: 520px;
+}
+
+.img6{
+  width: 500px;
+  border-radius: 8px;
+  height: 520px;
+}
+
+/* Parte de navegação do footer */
 .tituloMapa {
   margin-top: 10px;
   text-align: center;
@@ -234,6 +263,7 @@ body {
   max-width: 900px; 
 }
 
+/* Footer */
 .imgFooter img {
   width: 400px;
   height: auto;
@@ -280,6 +310,7 @@ hr {
   margin-top: 10px;
 }
 
+/* Media Query: */
 @media (max-width: 600px) {
 
   html, body {

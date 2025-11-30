@@ -1,16 +1,5 @@
-//Exercicio Número 1 
-function ordenarNum(){
-    let res = document.getElementById("res1");
-    let arr = [];
-    for (let i = 1; i <= 20; i++) {
-      arr.push(i);
-    }
-    res.innerHTML = "Crescente: " + arr + "<br>";
-    res.innerHTML += "Decrescente: " + arr.slice().reverse();
-  }
 
-//Exercicio Número 2 
-
+//Exercicio Número 1
 function ordenarNumBs(){
     let res = document.getElementById("res2");
     let arr = [];
@@ -31,7 +20,7 @@ function ordenarNumBs(){
     res.innerHTML = "Array ordenado (BubbleSort): " + arr;
   }
 
-  //Exercicio Número 3
+  //Exercicio Número 2
   function somaArr(){
     let res = document.getElementById("res3");
     let arr = [];
@@ -43,7 +32,7 @@ function ordenarNumBs(){
     res.innerHTML += "Soma: " + soma;
   }
 
-  //Exercicio Número 4
+  //Exercicio Número 3
 function gerarMat() {
     let res = document.getElementById("res4");
     let mat = [];
@@ -54,14 +43,13 @@ function gerarMat() {
       }
     }
 
-    //Código para fazer um console.table:
     res.innerHTML = "";
     for (let i = 0; i < 3; i++) {
       res.innerHTML += mat[i].join(",| ") + "<br>";
     }
   }
 
-  //Exercicio Número 5
+  //Exercicio Número 4
 
 function calcularIMC() {
     let peso = Number(document.getElementById('peso').value)
@@ -79,7 +67,7 @@ function calcularIMC() {
     document.getElementById('res5').innerHTML = `IMC: ${imc.toFixed(2)} (${situacao})`
 }
 
-//Exercicio Número 6
+//Exercicio Número 5
 
 function converterTemperatura() {
     let res = document.getElementById("res6");
@@ -102,24 +90,32 @@ function converterTemperatura() {
     }
   }
 
-//Exercicio Número 7
+//Exercicio Número 6
 
-function buscaLinear(){
+function buscaLinear() {
     let res = document.getElementById("res7");
-    let arr = [3, 7, 10, 15, 20, 25, 30];
+    let arr = [1, 3, 7, 10, 15, 20, 25, 30, 32, 38, 43, 45, 47, 50];
     let valor = Number(document.getElementById("buscaValor").value);
-  
+
     if (isNaN(valor)) {
-      res.innerHTML = "Digite um número válido.";
-      return;
+        res.innerHTML = "Digite um número válido.";
+        return;
     }
-  
-    let encontrado = arr.indexOf(valor);
+
+    let encontrado = -1;
+
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === valor) {
+            encontrado = i;
+            break;
+        }
+    }
+
     if (encontrado !== -1) {
-      res.innerHTML = "Valor " + valor + " encontrado na posição " + encontrado;
+        res.innerHTML = "Valor " + valor + " encontrado na posição " + encontrado;
     } else {
-      res.innerHTML = "Valor não encontrado!";
+        res.innerHTML = "Valor não encontrado!";
     }
-  }
+}
 
 

@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
 }
-
+ 
+/* Header e parte de navegação: */
 .divHeader{
     display: flex;
     align-items: center;
@@ -82,6 +83,7 @@
   font-family: 'Franklin Gothic Medium';
 }
 
+/* Conteúdos, Imagens, Pesquisas e Calculos */
 .tituloPrincipal{
     margin-top: 50px;
     text-align: center;
@@ -102,7 +104,7 @@
 }
 
 .secaoSGBD{
-  height: 300px;
+  height: 500px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -112,7 +114,7 @@
 }
 
 .secaoSGBD:hover{
-  height: 300px;
+  height: 500px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -139,8 +141,17 @@ margin: 10px;
     color: rgb(0, 0, 0);
 }
 
+.imagemSgbd{
+  margin-top: 10px;
+  height: 200px; 
+  width: auto;
+  margin-left: 300px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
 .secaoBanco{
-  height: 300px;
+  height: 500px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -150,7 +161,7 @@ margin: 10px;
 }
 
 .secaoBanco:hover{
-  height: 300px;
+  height: 500px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -177,8 +188,17 @@ margin: 10px;
     color: rgb(0, 0, 0);
 }
 
+.imagemB{
+  margin-top: 10px;
+  height: 200px; 
+  width: auto;
+  margin-left: 250px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
 .secaoDicio{
-  height: 300px;
+  height: 550px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -188,7 +208,7 @@ margin: 10px;
 }
 
 .secaoDicio:hover{
-  height: 300px;
+  height: 550px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -216,7 +236,7 @@ margin: 10px;
 }
 
 .secaoModelagem{
-  height: 300px;
+  height: 500px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -226,7 +246,7 @@ margin: 10px;
 }
 
 .secaoModelagem:hover{
-  height: 300px;
+  height: 500px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -253,8 +273,17 @@ margin: 10px;
     color: rgb(0, 0, 0);
 }
 
+.imagemModelagem{
+  margin-top: 10px;
+  height: 200px; 
+  width: auto;
+  margin-left: 220px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
 .secaoDER{
-  height: 300px;
+  height: 650px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -264,7 +293,7 @@ margin: 10px;
 }
 
 .secaoDER:hover{
-  height: 300px;
+  height: 650px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -290,9 +319,17 @@ margin: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(0, 0, 0);
 }
+.imagemDer{
+  margin-top: 10px;
+  height: 300px; 
+  width: auto;
+  margin-left: 200px;
+  border-radius: 20px;
+  border-color: #000000;
+}
 
 .secaoMER{
-  height: 400px;
+  height: 600px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -302,7 +339,7 @@ margin: 10px;
 }
 
 .secaoMER:hover{
-  height: 400px;
+  height: 600px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -329,8 +366,74 @@ margin: 10px;
     color: rgb(0, 0, 0);
 }
 
+.imagemMer{
+  margin-top: 10px;
+  height: 200px; 
+  width: auto;
+  margin-left: 80px;
+  border-radius: 20px;
+  border-color: #000000;
+}
 
+.secaoFormulario{
+  height: 600px;
+  width: 900px;
+  margin-left: 500px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
 
+.secaoFormulario:hover{
+  transform: scale(1.02);
+  transition: 0.4s;
+}
+
+.textoFormulario{
+  margin: 10px;
+}
+
+.pTitulo7{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.info7{
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.formulario input{
+  width: 300px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  padding-left: 5px;
+}
+
+.botaoSalvar{
+  margin-top: 10px;
+  width: 120px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(83, 83, 83);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.resultadoSalvar{
+  margin-top: 20px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-family: 'Gill Sans MT';
+}
+
+/* Navegação do footer */
 .tituloMapa {
   margin-top: 10px;
   text-align: center;
@@ -350,6 +453,7 @@ margin: 10px;
   max-width: 900px; 
 }
 
+/* Footer */
 .imgFooter img {
   width: 400px;
   height: auto;
@@ -372,7 +476,7 @@ footer .infoFooter {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px; /* espaço entre logo e informações */
+  gap: 50px; 
   width: 80%;
   max-width: 1000px;
   margin-bottom: 10px;
@@ -396,7 +500,7 @@ hr{
   margin-top: 10px;
 }
 
-
+/* Background Animado */
 html, body {
   width: 100%;
   height:100%;
@@ -419,4 +523,116 @@ body {
     100% {
         background-position: 0% 50%;
     }
+}
+
+/* Media Query: */
+@media (max-width: 1400px) {
+
+    .divHeader {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .imagemSesi {
+        margin-left: 0;
+    }
+
+    .nav a,
+    .nav1 a,
+    .nav2 a,
+    .nav3 a,
+    .nav4 a,
+    .nav5 a,
+    .nav6 a,
+    .nav7 a {
+        font-size: 12px;
+    }
+
+    .tituloPrincipal {
+        font-size: 30px;
+    }
+
+    .infoP {
+        margin-left: 0;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .secaoSGBD,
+    .secaoBanco,
+    .secaoDicio,
+    .secaoModelagem,
+    .secaoDER,
+    .secaoMER,
+    .secaoFormulario {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .imagemSgbd,
+    .imagemB,
+    .imagemModelagem,
+    .imagemDer,
+    .imagemMer {
+        margin-left: 0;
+        display: block;
+        margin: 10px auto;
+        max-width: 90%;
+        height: auto;
+    }
+
+    .info1,
+    .info2,
+    .info3,
+    .info4,
+    .info5,
+    .info6,
+    .info7 {
+        text-align: left;
+        margin: auto;
+        width: 90%;
+    }
+
+    .pTitulo1,
+    .pTitulo2,
+    .pTitulo3,
+    .pTitulo4,
+    .pTitulo5,
+    .pTitulo6,
+    .pTitulo7 {
+        font-size: 25px;
+    }
+
+    .navegacaoImg {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 0;
+        width: 100%;
+        justify-items: center;
+    }
+
+    .imgFooter img {
+        width: 250px;
+    }
+
+    .IconeFooter {
+        margin-left: 0;
+        display: block;
+        margin: auto;
+        width: 120px;
+        height: auto;
+    }
+
+    footer .infoFooter {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
 }

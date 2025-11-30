@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* Header e parte de navegação: */
 .divHeader{
     display: flex;
     align-items: center;
@@ -82,6 +83,7 @@
   font-family: 'Franklin Gothic Medium';
 }
 
+/* Conteúdos, Imagens, Pesquisas e Calculos */
 .tituloPrincipal{
     margin-top: 50px;
     text-align: center;
@@ -102,7 +104,7 @@
 }
 
 .secaoRedesComp{
-  height: 200px;
+  height: 400px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -112,7 +114,7 @@
 }
 
 .secaoRedesComp:hover{
-  height: 200px;
+  height: 400px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -137,6 +139,15 @@ margin: 10px;
   font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(0, 0, 0);
+}
+
+.imagemRede{
+  margin-top: 10px;
+  height: 200px; 
+  width: auto;
+  margin-left: 270px;
+  border-radius: 20px;
+  border-color: #000000;
 }
 
 .secaoRedesMin{
@@ -178,7 +189,7 @@ margin: 10px;
 }
 
 .secaoInter{
-  height: 400px;
+  height: 600px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -188,7 +199,7 @@ margin: 10px;
 }
 
 .secaoInter:hover{
-  height: 400px;
+  height: 600px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -215,8 +226,17 @@ margin: 10px;
     color: rgb(0, 0, 0);
 }
 
+.imagemInter{
+  margin-top: 10px;
+  height: 200px; 
+  width: auto;
+  margin-left: 270px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
 .secaoWeb{
-  height: 200px;
+  height: 400px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -226,7 +246,7 @@ margin: 10px;
 }
 
 .secaoWeb:hover{
-  height: 200px;
+  height: 400px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -251,6 +271,15 @@ margin: 10px;
   font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(0, 0, 0);
+}
+
+.imagemWeb{
+  margin-top: 10px;
+  height: 200px; 
+  width: auto;
+  margin-left: 270px;
+  border-radius: 20px;
+  border-color: #000000;
 }
 
 .secaoFibra{
@@ -294,13 +323,13 @@ margin: 10px;
 .imagemFibra{
   height: 300px; 
   width: auto;
-  margin-left: 100px;
+  margin-left: 130px;
   border-radius: 20px;
   border-color: #000000;
 }
 
 .secaoWifi{
-  height: 300px;
+  height: 500px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -310,7 +339,7 @@ margin: 10px;
 }
 
 .secaoWifi:hover{
-  height: 300px;
+  height: 500px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -337,8 +366,17 @@ margin: 10px;
     color: rgb(0, 0, 0);
 }
 
+.imagemWifi{
+  margin-top: 10px;
+  height: 250px; 
+  width: auto;
+  margin-left: 260px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
 .secaoRedeLoc{
-  height: 300px;
+  height: 540px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -348,7 +386,7 @@ margin: 10px;
 }
 
 .secaoRedeLoc:hover{
-  height: 300px;
+  height: 540px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -375,8 +413,17 @@ margin: 10px;
     color: rgb(0, 0, 0);
 }
 
+.imagemCompo{
+  margin-top: 10px;
+  height: 250px; 
+  width: auto;
+  margin-left: 260px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
 .secaoComunic{
-  height: 300px;
+  height: 250px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -386,7 +433,7 @@ margin: 10px;
 }
 
 .secaoComunic:hover{
-  height: 300px;
+  height: 250px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -414,7 +461,7 @@ margin: 10px;
 }
 
 .secaoOSI{
-  height: 300px;
+  height: 600px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -424,7 +471,7 @@ margin: 10px;
 }
 
 .secaoOSI:hover{
-  height: 300px;
+  height: 600px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -451,8 +498,17 @@ margin: 10px;
     color: rgb(0, 0, 0);
 }
 
+.imagemOSI{
+  margin-top: 10px;
+  height: 250px; 
+  width: auto;
+  margin-left: 230px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
 .secaoTCPIP{
-  height: 300px;
+  height: 620px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -462,7 +518,7 @@ margin: 10px;
 }
 
 .secaoTCPIP:hover{
-  height: 300px;
+  height: 620px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -489,8 +545,17 @@ margin: 10px;
     color: rgb(0, 0, 0);
 }
 
+.imagemTCP{
+  margin-top: 10px;
+  height: 350px; 
+  width: auto;
+  margin-left: 230px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
 .secaoIPV{
-  height: 500px;
+  height: 670px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -500,7 +565,7 @@ margin: 10px;
 }
 
 .secaoIPV:hover{
-  height: 500px;
+  height: 670px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -525,6 +590,15 @@ margin: 10px;
   font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(0, 0, 0);
+}
+
+.imagemIpv{
+  margin-top: 10px;
+  height: 200px; 
+  width: auto;
+  margin-left: 200px;
+  border-radius: 20px;
+  border-color: #000000;
 }
 
 .secaoBackend{
@@ -566,7 +640,7 @@ margin: 10px;
 }
 
 .secaoHTTP{
-  height: 400px;
+  height: 680px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -576,7 +650,7 @@ margin: 10px;
 }
 
 .secaoHTTP:hover{
-  height: 400px;
+  height: 680px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -601,6 +675,15 @@ margin: 10px;
   font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(0, 0, 0);
+}
+
+.imagemHTTP{
+  margin-top: 10px;
+  height: 250px; 
+  width: auto;
+  margin-left: 200px;
+  border-radius: 20px;
+  border-color: #000000;
 }
 
 .secaoFramework{
@@ -641,7 +724,40 @@ margin: 10px;
     color: rgb(0, 0, 0);
 }
 
+.pTitulo15{
+  font-size: 30px;
+  text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+}
 
+/* Configuração das caixas com código: */
+.code-block {
+    height: 400px;
+    width: 900px;
+    margin-left: 500px;
+    background: #1e1e1e;
+    color: #dcdcdc;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+    border: 1px solid #333;
+}
+
+.code-block :hover {
+   transform: scale(1.02);
+   transition: 0.4s;
+}
+
+.code-block pre {
+    margin: 0;
+    font-size: 14px;
+    font-family: "Courier New", monospace;
+    white-space: pre-wrap;
+}
+
+/* Navegação do footer */
 .tituloMapa {
   margin-top: 10px;
   text-align: center;
@@ -661,6 +777,7 @@ margin: 10px;
   max-width: 900px; 
 }
 
+/* Footer */
 .imgFooter img {
   width: 400px;
   height: auto;
@@ -683,7 +800,7 @@ footer .infoFooter {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px; /* espaço entre logo e informações */
+  gap: 50px; 
   width: 80%;
   max-width: 1000px;
   margin-bottom: 10px;
@@ -707,7 +824,7 @@ hr{
   margin-top: 10px;
 }
 
-
+/* Background Animado */
 html, body {
   width: 100%;
   height:100%;
@@ -730,4 +847,141 @@ body {
     100% {
         background-position: 0% 50%;
     }
+}
+
+/* Media Query: */
+@media (max-width: 1400px) {
+
+  .divHeader {
+      width: 100%;
+      justify-content: center;
+      gap: 10px;
+  }
+
+  .imagemSesi {
+      margin-left: 0;
+      width: 90px;
+      height: 80px;
+  }
+
+  .nav a,
+  .nav1 a,
+  .nav2 a,
+  .nav3 a,
+  .nav4 a,
+  .nav5 a,
+  .nav6 a,
+  .nav7 a {
+      font-size: 12px;
+  }
+
+  .tituloPrincipal {
+      font-size: 30px;
+  }
+
+  .infoP {
+      font-size: 24px;
+      margin-left: 0;
+      width: 90%;
+      margin: auto;
+  }
+
+  .secaoRedesComp,
+  .secaoRedesMin,
+  .secaoInter,
+  .secaoWeb,
+  .secaoFibra,
+  .secaoWifi,
+  .secaoRedeLoc,
+  .secaoComunic,
+  .secaoOSI,
+  .secaoTCPIP,
+  .secaoIPV,
+  .secaoBackend,
+  .secaoHTTP,
+  .secaoFramework,
+  .code-block {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
+      padding-bottom: 20px;
+  }
+
+  .pTitulo1,
+  .pTitulo2,
+  .pTitulo3,
+  .pTitulo4,
+  .pTitulo5,
+  .pTitulo6,
+  .pTitulo7,
+  .pTitulo8,
+  .pTitulo9,
+  .pTitulo10,
+  .pTitulo11,
+  .pTitulo12,
+  .pTitulo13,
+  .pTitulo14,
+  .pTitulo15 {
+      font-size: 26px;
+  }
+
+  .info1,
+  .info2,
+  .info3,
+  .info4,
+  .info5,
+  .info6,
+  .info7,
+  .info8,
+  .info9,
+  .info10,
+  .info11,
+  .info12,
+  .info13,
+  .info14 {
+      font-size: 18px;
+  }
+
+  .imagemRede,
+  .imagemInter,
+  .imagemWeb,
+  .imagemFibra,
+  .imagemWifi,
+  .imagemCompo,
+  .imagemOSI,
+  .imagemTCP,
+  .imagemIpv,
+  .imagemHTTP {
+      margin-left: 0;
+      display: block;
+      margin: 20px auto;
+      max-width: 90%;
+      height: auto;
+  }
+
+  .navegacaoImg {
+      grid-template-columns: repeat(2, 1fr);
+      margin-left: 0;
+      width: 90%;
+      margin: auto;
+  }
+
+  .imgFooter img {
+      width: 90%;
+  }
+
+  footer .infoFooter {
+      flex-direction: column;
+      text-align: center;
+      gap: 20px;
+      width: 100%;
+  }
+
+  .IconeFooter {
+      margin-left: 0;
+      width: 120px;
+      height: auto;
+  }
+
 }

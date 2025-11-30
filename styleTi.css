@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* Header e parte de navegação: */
 .divHeader{
     display: flex;
     align-items: center;
@@ -82,6 +83,7 @@
   font-family: 'Franklin Gothic Medium';
 }
 
+/* Conteúdos, Imagens, Pesquisas e Calculos */
 .tituloPrincipal{
   margin-top: 50px;
   text-align: center;
@@ -102,7 +104,7 @@ text-align: center;
 }
 
 .secaoHardware{
-  height: 320px;
+  height: 600px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -112,7 +114,7 @@ text-align: center;
 }
 
 .secaoHardware:hover{
-  height: 320px;
+  height: 600px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -139,8 +141,17 @@ margin: 10px;
     color: rgb(0, 0, 0);
 }
 
+.imagemHardware{
+  margin-top: 10px;
+  height: 250px; 
+  width: auto;
+  margin-left: 250px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
 .secaoSistemaOp{
-  height: 240px;
+  height: 500px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -150,7 +161,7 @@ margin: 10px;
 }
 
 .secaoSistemaOp:hover{
-  height: 240px;
+  height: 500px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -177,8 +188,18 @@ margin: 10px;
     color: rgb(0, 0, 0);
 }
 
+.imagemSistOp{
+  margin-top: 10px;
+  height: 230px; 
+  width: auto;
+  margin-left: 250px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
+
 .secaoSistemaArq{
-  height: 300px;
+  height: 500px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -188,7 +209,7 @@ margin: 10px;
 }
 
 .secaoSistemaArq:hover{
-  height: 300px;
+  height: 500px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -215,8 +236,26 @@ margin: 10px;
     color: rgb(0, 0, 0);
 }
 
+.imagemArq1{
+  margin-top: 10px;
+  height: 200px; 
+  width: auto;
+  margin-left: 80px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
+.imagemArq2{
+  margin-top: 10px;
+  height: 200px; 
+  width: auto;
+  margin-left: 40px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
 .secaoSoftware{
-  height: 230px;
+  height: 640px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -226,7 +265,7 @@ margin: 10px;
 }
 
 .secaoSoftware:hover{
-  height: 230px;
+  height: 640px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -253,6 +292,33 @@ margin: 10px;
     color: rgb(0, 0, 0);
 }
 
+.imagemSoftware1{
+  margin-top: 10px;
+  height: 200px; 
+  width: auto;
+  margin-left: 5px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
+.imagemSoftware2{
+  margin-top: 10px;
+  height: 200px; 
+  width: auto;
+  margin-left: -12px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
+.imagemSoftware3{
+  margin-top: 10px;
+  height: 200px; 
+  width: auto;
+  margin-left: 250px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
 .tituloMapa {
   margin-top: 10px;
   text-align: center;
@@ -261,6 +327,7 @@ margin: 10px;
   color: white;
 }
 
+/* Navegação do footer */
 .navegacaoImg {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
@@ -272,6 +339,7 @@ margin: 10px;
   max-width: 900px; 
 }
 
+/* Footer */
 .imgFooter img {
   width: 400px;
   height: auto;
@@ -294,7 +362,7 @@ footer .infoFooter {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px; /* espaço entre logo e informações */
+  gap: 50px;
   width: 80%;
   max-width: 1000px;
   margin-bottom: 10px;
@@ -318,7 +386,7 @@ hr{
   margin-top: 10px;
 }
 
-
+/* Background Animado */
 html, body {
   width: 100%;
   height:100%;
@@ -341,4 +409,106 @@ body {
     100% {
         background-position: 0% 50%;
     }
+}
+
+/* Media Query: */
+@media (max-width: 1400px) {
+
+  .divHeader {
+      width: 100%;
+      justify-content: center;
+      gap: 10px;
+  }
+
+  .imagemSesi {
+      margin-left: 0;
+      width: 90px;
+      height: 80px;
+  }
+
+  .nav a,
+  .nav1 a,
+  .nav2 a,
+  .nav3 a,
+  .nav4 a,
+  .nav5 a,
+  .nav6 a,
+  .nav7 a {
+      font-size: 12px;
+  }
+
+  .tituloPrincipal {
+      font-size: 30px;
+  }
+
+  .infoP {
+      font-size: 24px;
+      margin-left: 0;
+      width: 90%;
+      margin: auto;
+  }
+
+  .secaoHardware,
+  .secaoSistemaOp,
+  .secaoSistemaArq,
+  .secaoSoftware {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
+      padding-bottom: 20px;
+  }
+
+  .pTitulo1,
+  .pTitulo2,
+  .pTitulo3,
+  .pTitulo4 {
+      font-size: 26px;
+  }
+
+  .info1,
+  .info2,
+  .info3,
+  .info4 {
+      font-size: 18px;
+  }
+
+  .imagemHardware,
+  .imagemSistOp,
+  .imagemArq1,
+  .imagemArq2,
+  .imagemSoftware1,
+  .imagemSoftware2,
+  .imagemSoftware3 {
+      margin-left: 0;
+      display: block;
+      margin: 20px auto;
+      max-width: 90%;
+      height: auto;
+  }
+
+  .navegacaoImg {
+      grid-template-columns: repeat(2, 1fr);
+      margin-left: 0;
+      width: 90%;
+      margin: auto;
+  }
+
+  .imgFooter img {
+      width: 90%;
+  }
+
+  footer .infoFooter {
+      flex-direction: column;
+      text-align: center;
+      gap: 20px;
+      width: 100%;
+  }
+
+  .IconeFooter {
+      margin-left: 0;
+      width: 120px;
+      height: auto;
+  }
+
 }

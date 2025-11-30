@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* Header e parte de navegação: */
 .divHeader{
     display: flex;
     align-items: center;
@@ -81,6 +82,7 @@
   font-family: 'Franklin Gothic Medium';
 }
 
+/* Conteúdos, Imagens, Pesquisas e Calculos */
 .tituloPrincipal{
     margin-top: 50px;
     text-align: center;
@@ -101,7 +103,7 @@
 }
 
 .secaoLinguagens{
-    height: 520px;
+  height: 760px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -110,7 +112,7 @@
 }
 
 .secaoLinguagens:hover{
-    height: 520px;
+  height: 760px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -119,7 +121,6 @@
   transform: scale(1.02);
   transition: 0.4s;
 }
-
 
 .textoLinguagens{
    margin: 10px;
@@ -142,6 +143,15 @@
   font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(0, 0, 0);
+}
+
+.imagemLing{
+  margin-top: 10px;
+  height: 200px; 
+  width: auto;
+  margin-left: 260px;
+  border-radius: 20px;
+  border-color: #000000;
 }
 
 .secaoInt{
@@ -182,7 +192,7 @@
 }
 
 .secaoHtml{
-  height: 200px;
+  height: 400px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -191,7 +201,7 @@
 }
 
 .secaoHtml:hover{
-  height: 200px;
+  height: 400px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -218,8 +228,18 @@
     color: rgb(0, 0, 0);
 }
 
+.imagemHtml{
+  margin-top: 10px;
+  height: 200px; 
+  width: auto;
+  margin-left: 250px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
+
 .secaoIDE{
-  height: 230px;
+  height: 430px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -228,7 +248,7 @@
 }
 
 .secaoIDE:hover{
-  height: 230px;
+  height: 430px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -255,6 +275,16 @@
     color: rgb(0, 0, 0);
 }
 
+.imagemIDE{
+  margin-top: 10px;
+  height: 200px; 
+  width: auto;
+  margin-left: 250px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
+/* Parte de navegação do footer */
 .tituloMapa {
   margin-top: 10px;
   text-align: center;
@@ -274,6 +304,7 @@
   max-width: 900px; 
 }
 
+/* Footer */
 .imgFooter img {
   width: 400px;
   height: auto;
@@ -320,7 +351,7 @@ hr{
   margin-top: 10px;
 }
 
-
+/* Background Animado */
 html, body {
   width: 100%;
   height:100%;
@@ -332,13 +363,24 @@ body {
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
 .calculos1, 
 .calculos2, 
 .calculos3, 
 .calculos4, 
 .calculos5, 
-.calculos6, 
-.calculos7 {
+.calculos6 {
     background-color: white;
     width: 860px;
     margin-left: 500px;
@@ -353,8 +395,7 @@ body {
 .calculos3:hover,
 .calculos4:hover,
 .calculos5:hover,
-.calculos6:hover,
-.calculos7:hover {
+.calculos:hover {
     transform: scale(1.02);
 }
 
@@ -372,139 +413,172 @@ body {
     margin-top: 10px;
 }
 
-   @media (max-width: 1000px) {
+/* Media Query: */
+  @media (max-width: 1400px) {
 
-    html, body {
-      overflow-x: hidden;
-    }
-  
-    .divHeader {
-      flex-direction: column;
-      align-items: center;
-      gap: 10px;
-      width: 100%;
-      padding: 10px;
-    }
-  
-    .imagemSesi {
-      width: 70px;
-      height: auto;
-      margin: 0;
-    }
-  
-    .nav, .nav1, .nav2, .nav3, .nav4, .nav5, .nav6, .nav7 {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 6px;
-      margin-top: 5px;
-    }
-  
-    .nav a,
-    .nav1 a,
-    .nav2 a,
-    .nav3 a,
-    .nav4 a,
-    .nav5 a,
-    .nav6 a,
-    .nav7 a {
-      font-size: 12px;
-    }
-    .tituloPrincipal {
-      font-size: 26px;
-      margin-top: 20px;
-    }
-  
-    .infoP {
-      font-size: 18px;
-      margin: 10px auto;
-      max-width: 90%;
-      text-align: justify;
-    }
-  
-    .secaoLinguagens,
-    .secaoInt,
-    .secaoHtml,
-    .secaoIDE,
-    .calculos1,
-    .calculos2,
-    .calculos3,
-    .calculos4,
-    .calculos5,
-    .calculos6,
-    .calculos7 {
-      width: 90%;
-      margin: 15px auto;
-      height: auto;
-      padding: 15px;
-    }
-  
-    .textoLinguagens,
-    .textoInt,
-    .textoHtml,
-    .textoIDE {
-      margin: 5px;
-    }
-  
-    .pTitulo1,
-    .pTitulo2,
-    .pTitulo3,
-    .pTitulo4,
-    .titulo1 {
-      font-size: 22px;
-    }
-  
-    .info1,
-    .info2,
-    .info3,
-    .info4,
-    .info5,
-    .result {
-      font-size: 16px;
-      text-align: justify;
-    }
-  
-    .tituloMapa {
-      font-size: 26px;
-    }
-  
-    .navegacaoImg {
-      grid-template-columns: 1fr;
-      max-width: 90%;
-      margin: 10px auto;
-      gap: 20px;
-    }
-  
-    .imgFooter img {
-      width: 100%;
-      height: auto;
-    }
-
-    footer {
-      width: 100%;
-      text-align: center;
-      padding-bottom: 10px;
-    }
-  
-    .IconeFooter {
-      width: 90px;
-      margin: 10px auto;
-      height: auto;
-    }
-  
-    footer .infoFooter {
-      flex-direction: column;
-      gap: 10px;
-      width: 100%;
-    }
-  
-    .footerBottom {
-      font-size: 12px;
-    }
+  html, body {
+    overflow-x: hidden;
   }
 
-  
+  .divHeader {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .imagemSesi {
+    width: 70px;
+    height: auto;
+    margin: 0;
+  }
+
+  .nav, .nav1, .nav2, .nav3, .nav4, .nav5, .nav6, .nav7 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 5px;
+  }
+
+  .nav a,
+  .nav1 a,
+  .nav2 a,
+  .nav3 a,
+  .nav4 a,
+  .nav5 a,
+  .nav6 a,
+  .nav7 a {
+    font-size: 12px;
+  }
+
+  .tituloPrincipal {
+    font-size: 26px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .infoP {
+    font-size: 18px;
+    margin: 10px auto;
+    max-width: 90%;
+    text-align: justify;
+  }
+
+  .pTitulo1,
+  .pTitulo2,
+  .pTitulo3,
+  .pTitulo4,
+  .titulo1 {
+    font-size: 22px;
+  }
+
+  .info1,
+  .info2,
+  .info3,
+  .info4,
+  .info5,
+  .result {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .tituloMapa {
+    font-size: 26px;
+  }
 
 
+  .secaoLinguagens,
+  .secaoInt,
+  .secaoHtml,
+  .secaoIDE,
+  .calculos1,
+  .calculos2,
+  .calculos3,
+  .calculos4,
+  .calculos5,
+  .calculos6,
+  .calculos7 {
+    width: 90%;
+    margin: 15px auto;
+    height: auto;
+    padding: 15px;
+  }
 
+  .textoLinguagens,
+  .textoInt,
+  .textoHtml,
+  .textoIDE {
+    margin: 5px;
+  }
 
+  .imagemLing,
+  .imagemHtml,
+  .imagemIDE {
+    width: 80%;
+    max-width: 320px;  
+    height: auto;        
+    display: block;
+    margin: 12px auto;   
+    border-radius: 16px;
+    border: 1px solid rgba(0,0,0,0.08);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    object-fit: contain;
+  }
+
+  .secaoLinguagens .smallImg,
+  .secaoHtml .smallImg,
+  .secaoIDE .smallImg {
+    width: 48px;
+    height: auto;
+    margin: 8px;
+    display: inline-block;
+  }
+
+  .navegacaoImg {
+    grid-template-columns: 1fr;
+    max-width: 90%;
+    margin: 10px auto;
+    gap: 20px;
+  }
+
+  .navegacaoImg img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .imgFooter img {
+    width: 100%;
+    height: auto;
+    max-width: 420px;
+    display: block;
+    margin: 6px auto;
+  }
+
+  .IconeFooter {
+    width: 90px;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+  }
+
+  footer .infoFooter {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .footerBottom {
+    font-size: 12px;
+  }
+
+  input, textarea, button {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}

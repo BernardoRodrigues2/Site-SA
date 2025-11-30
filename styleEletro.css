@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* Header e parte de navegação: */
 .divHeader{
     display: flex;
     align-items: center;
@@ -82,6 +83,8 @@
   font-family: 'Franklin Gothic Medium';
 }
 
+/* Conteúdos, Imagens, Pesquisas e Calculos */
+
 .tituloPrincipal{
     margin-top: 50px;
     text-align: center;
@@ -102,7 +105,7 @@
 }
 
 .secaoComponentes{
-   height: 400px;
+   height: 600px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -111,7 +114,7 @@
 }
 
 .secaoComponentes:hover{
-   height: 400px;
+   height: 600px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -138,8 +141,27 @@
     color: rgb(0, 0, 0);
 }
 
+.imagemComp1{
+  margin-top: 10px;
+  height: 200px; 
+  width: auto;
+  margin-left: 100px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
+.imagemComp2{
+  margin-top: 10px;
+  height: 200px; 
+  width: auto;
+  margin-left: 100px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
+
 .secaoSensores{
-  height: 300px;
+  height: 450px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -148,7 +170,7 @@
 
 }
 .secaoSensores:hover{
-  height: 300px;
+  height: 450px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -175,8 +197,16 @@ margin: 10px;
     color: rgb(0, 0, 0);
 }
 
+.imagemSens{
+  height: 200px; 
+  width: auto;
+  margin-left: 270px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
 .secaoArduino{
-  height: 500px;
+  height: 720px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -185,7 +215,7 @@ margin: 10px;
 
 }
 .secaoArduino:hover{
-  height: 500px;
+  height: 720px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -210,6 +240,14 @@ margin: 10px;
   font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(0, 0, 0);
+}
+
+.imagemArdui{
+  height: 280px; 
+  width: auto;
+  margin-left: 300px;
+  border-radius: 20px;
+  border-color: #000000;
 }
 
 .secaoArduino2{
@@ -251,7 +289,7 @@ margin: 10px;
 }
 
 .secaoArduino3{
-  height: 200px;
+  height: 350px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -261,7 +299,7 @@ margin: 10px;
 }
 
 .secaoArduino3:hover{
-  height: 200px;
+  height: 350px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -287,6 +325,25 @@ margin: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(0, 0, 0);
 }
+
+.imagemArd1{
+  margin-top: 10px;
+  height: 200px; 
+  width: auto;
+  margin-left: 100px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
+.imagemArd2{
+  margin-top: 10px;
+  height: 200px; 
+  width: auto;
+  margin-left: 100px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
 
 .secaoEntrada{
   height: 300px;
@@ -365,7 +422,7 @@ margin: 10px;
 }
 
 .secaoDiodo{
-  height: 300px;
+  height: 700px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -375,7 +432,7 @@ margin: 10px;
 }
 
 .secaoDiodo:hover{
-  height: 300px;
+  height: 700px;
   width: 900px;
   margin-left: 500px;
   margin-bottom: 10px;
@@ -402,6 +459,34 @@ margin: 10px;
     color: rgb(0, 0, 0);
 }
 
+.imagemdio1{
+  margin-top: 10px;
+  height: 200px; 
+  width: auto;
+  margin-left: 100px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
+.imagemdio2{
+  margin-top: 10px;
+  height: 200px; 
+  width: auto;
+  margin-left: 100px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
+.imagemdio3{
+  margin-top: 10px;
+  height: 200px; 
+  width: auto;
+  margin-left: 300px;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
+
 .calculos1, 
 .calculos2, 
 .calculos3 {
@@ -420,7 +505,9 @@ margin: 10px;
     transform: scale(1.02);
 }
 
-.titulo1 {
+.titulo1,
+.titulo2,
+.titulo3 {
   font-size: 30px;
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -434,6 +521,7 @@ margin: 10px;
   margin-top: 10px;
 }
 
+/* Navegação do footer */
 .tituloMapa {
   margin-top: 10px;
   text-align: center;
@@ -453,6 +541,7 @@ margin: 10px;
   max-width: 900px; 
 }
 
+/* Footer */
 .imgFooter img {
   width: 400px;
   height: auto;
@@ -500,7 +589,7 @@ hr{
   margin-top: 10px;
 }
 
-
+/* Backgtound Animado */
 html, body {
   width: 100%;
   height:100%;
@@ -524,33 +613,101 @@ body {
         background-position: 0% 50%;
     }
 }
-@media screen and (max-width: 1400px) and (min-width: 601px) {
 
-  .imagemSesi {
-    width: 100px;
-  }
+/* Media Query: */
+@media (max-width: 1400px) {
 
-  .paragrafoPrincipal {
-    max-width: 800px;
-    margin: 20px auto;
-    font-size: 24px;
-  }
+    .divHeader {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
 
-  .navegacaoImg {
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 700px;
-    gap: 25px;
-  }
+    .imagemSesi {
+        margin-left: 0;
+    }
 
-  .mapaSesi {
-    max-width: 500px;
-  }
+    .nav a,
+    .nav1 a,
+    .nav2 a,
+    .nav3 a,
+    .nav4 a,
+    .nav5 a,
+    .nav6 a,
+    .nav7 a {
+        font-size: 12px;
+    }
 
-  footer .infoFooter {
-    gap: 25px;
-  }
+    .tituloPrincipal {
+        font-size: 30px;
+    }
 
-  .imgFooter img {
-    max-width: 320px;
-  }
+    .infoP {
+        margin-left: 0;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .secaoComponentes,
+    .secaoSensores,
+    .secaoArduino,
+    .secaoArduino2,
+    .secaoArduino3,
+    .secaoEntrada,
+    .secaoEntrada2,
+    .secaoDiodo,
+    .calculos1, 
+    .calculos2, 
+    .calculos3 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .imagemComp1,
+    .imagemComp2,
+    .imagemSens,
+    .imagemArdui,
+    .imagemArd1,
+    .imagemArd2,
+    .imagemdio1,
+    .imagemdio2,
+    .imagemdio3 {
+        margin-left: 0;
+        display: block;
+        margin: 10px auto;
+        max-width: 90%;
+        height: auto;
+    }
+
+    .navegacaoImg {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 0;
+        width: 100%;
+        justify-items: center;
+    }
+
+    .imgFooter img {
+        width: 250px;
+    }
+
+    .IconeFooter {
+        margin-left: 0;
+        display: block;
+        margin: auto;
+        width: 120px;
+        height: auto;
+    }
+
+    footer .infoFooter {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
 }
